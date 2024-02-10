@@ -6,7 +6,8 @@ import Greet from './src/components/Greet';
 export default function App() {
 	return (
 		<View style={styles.container}>
-			<Greet />
+			<Greet name='John' />
+			<Greet name='Jane' />
 			<StatusBar style='auto' />
 		</View>
 	);

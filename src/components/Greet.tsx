@@ -1,10 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
 
-const Greet = () => {
+type GreetProps = {
+	name: string;
+};
+
+const Greet = ({ name }: GreetProps) => {
 	return (
 		<View>
-			<Text>Hello Everyone!</Text>
+			<Text>Hello {name}!</Text>
 		</View>
 	);
 };
