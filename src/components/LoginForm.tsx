@@ -4,7 +4,6 @@ import { StyleSheet, TextInput, View, Text, Button } from 'react-native';
 const LoginForm = () => {
 	return (
 		<View>
-			<Text>LoginForm Component</Text>
 			<TextInput placeholder='Username' />
 			<TextInput placeholder='Password' />
 			<Button
