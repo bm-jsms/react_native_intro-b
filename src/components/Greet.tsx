@@ -2,10 +2,10 @@ import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
 
 type GreetProps = {
-	name: string;
+	name?: string;
 };
 
-const Greet = ({ name }: GreetProps) => {
+const Greet = ({ name = 'Guest' }: GreetProps) => {
 	return (
 		<View>
 			<Text>Hello {name}!</Text>
